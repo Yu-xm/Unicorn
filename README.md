@@ -1,2 +1,2 @@
-# Bridge
+# Synthetic data
 Official implement

@@ -1,2 +1,2 @@
-# Synthetic data
+# Synthetic Data
 Official implement

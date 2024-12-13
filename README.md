@@ -1,6 +1,8 @@
 # Synthetic Data
 Official implement
 
+## Source Datasets Statistics
+
 | Datasets          | Domain      | Scaling | seed   |
 |-------------------|-------------|---------|--------|
 | MS COCO           | Normal      | 330k    | Caption |

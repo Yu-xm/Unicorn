@@ -3,6 +3,8 @@ Official implement
 
 ## Source Datasets Statistics
 
+Processed seed dataset can be downloaded from huggingface.
+
 | Datasets          | Domain      | Scaling | seed   |
 |-------------------|-------------|---------|--------|
 | MS COCO           | Normal      | 330k    | Caption |

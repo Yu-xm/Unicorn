@@ -94,6 +94,18 @@ sh script/train/pretrain.sh
 sh script/train/finetune_full.sh
 ```
 
+## Citation
+If you find this repository helpful, please cite the paper below.
+
+```bibtex
+@article{yu2025unicorn,
+  title={Unicorn: Text-only data synthesis for vision language model training},
+  author={Yu, Xiaomin and Ding, Pengxiang and Zhang, Wenjie and Huang, Siteng and Gao, Songyang and Qin, Chengwei and Wu, Kejian and Fan, Zhaoxin and Qiao, Ziyue and Wang, Donglin},
+  journal={arXiv preprint arXiv:2503.22655},
+  year={2025}
+}
+```
+
 ## Contact
 
 If you have any questions, please contact: xmyu02@gamil.com

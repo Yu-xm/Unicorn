@@ -9,7 +9,7 @@
 
 ### Env
 
-**Our code is based on [[Bunny]([https://huggingface.co/datasets/Yu2020/Unicorn](https://github.com/BAAI-DCAI/Bunny))]**
+**Our code is based on** [Bunny](https://github.com/BAAI-DCAI/Bunny).
 
 Create a conda virtual environment and activate it:
 

@@ -9,6 +9,8 @@
 
 ### Env
 
+**Our code is based on [[Bunny]([https://huggingface.co/datasets/Yu2020/Unicorn](https://github.com/BAAI-DCAI/Bunny))]**
+
 Create a conda virtual environment and activate it:
 
   ```shell
@@ -60,6 +62,8 @@ Before training, the text data needs to be embedded first.
 ```
 python image_embed.py
 ```
+
+then, change the embedding path in data_utils.py
 
 
 

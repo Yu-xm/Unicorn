@@ -1,6 +1,6 @@
 # Unicorn: Text-Only Data Synthesis for Vision Language Model Training
 
-📄 [Paper](https://arxiv.org/abs/2503.22655) | 🤗 [Data](https://huggingface.co/datasets/BoyaWu10/Bunny-v1_1-data) | 🤖 [Data](https://www.modelscope.cn/datasets/BoyaWu10/Bunny-v1.1-data) | 🤗 [HFSpace](https://huggingface.co/spaces/BoZhaoHuggingFace/Bunny) 🐰 [Demo](http://bunny.baai.ac.cn)
+📄 [Paper](https://arxiv.org/abs/2503.22655) | 🤗 [Data](https://huggingface.co/datasets/Yu2020/Unicorn)
 
 ## News
 

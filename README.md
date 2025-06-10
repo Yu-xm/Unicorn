@@ -55,10 +55,26 @@ Install bunny and other requirements
 
 ### Data
 
+Before training, the text data needs to be embedded first. 
+
+```
+python image_embed.py
+```
+
+
+
+
 ### Pretrain
+
+```
+sh script/train/pretrain.sh
+```
 
 ### Instruction Tuning
 
+```
+sh script/train/finetune_full.sh
+```
 
 ## Contact
 

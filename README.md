@@ -1,4 +1,4 @@
-# Unicorn: Text-Only Data Synthesis for Vision Language Model Training [Code Release Soon]
+# Unicorn: Text-Only Data Synthesis for Vision Language Model Training
 
 ## News
 
@@ -7,9 +7,9 @@
 
 ## Training
 
-### Env
-
 **Our code is based on** [Bunny](https://github.com/BAAI-DCAI/Bunny).
+
+### Env
 
 Create a conda virtual environment and activate it:
 
@@ -57,16 +57,26 @@ Install bunny and other requirements
 
 ### Data
 
-Before training, the text data needs to be embedded first. 
+Download the **Unicorn-1.2M** & **Unicorn-Instruction-471K** Datasets. [[HF](https://huggingface.co/datasets/Yu2020/Unicorn)]
+
+Embed the captions from **Unicorn-1.2M** to get text embeddings
 
 ```
 python image_embed.py
 ```
 
-then, change the embedding path in data_utils.py
+Mean shift to get synthetic image embeddings
 
+```
+python embed_mean.py
+```
 
+Then, change the embedding path in `data_utils.py`
 
+```
+folder_path = ''
+```
+Note: the same pkl file is used in both the pretraining and instruction-tuning stages
 
 ### Pretrain
 
